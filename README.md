@@ -24,16 +24,21 @@ The **Web API** (`app.py`) uses the LLM-first pipeline.
 git clone https://github.com/johnpaulusprem/ocr-parser.git
 cd ocr-parser
 
-# Create virtual environment
+# Create virtual environment and install dependencies
+
+# Option A: Using uv (recommended, faster)
+uv venv
+source .venv/bin/activate  # Linux/macOS
+# .venv\Scripts\activate   # Windows
+uv pip install -e .
+uv pip install -e ".[dev]"  # Optional: dev tools
+
+# Option B: Using pip
 python -m venv venv
 source venv/bin/activate  # Linux/macOS
 # venv\Scripts\activate   # Windows
-
-# Install dependencies
 pip install -e .
-
-# (Optional) Install dev tools
-pip install -e ".[dev]"
+pip install -e ".[dev]"   # Optional: dev tools
 ```
 
 ### LLM Setup (Ollama)
