@@ -76,6 +76,7 @@ The API runs at `http://localhost:8000`. Interactive docs at `http://localhost:8
 
 | Method | Path | Description |
 |--------|------|-------------|
+| `GET` | `/health` | Health check — service status and LLM reachability |
 | `GET` | `/config` | View current LLM configuration |
 | `POST` | `/process` | Process an OCR document |
 
@@ -98,7 +99,43 @@ Note: The container needs access to your Ollama instance. Use `--network host` o
 
 ## Sample Curls
 
-### 1. Check current config
+### 1. Health check
+
+```bash
+curl http://localhost:8000/health
+```
+
+Response (LLM running):
+```json
+{
+  "status": "healthy",
+  "service": "ocr-pipeline",
+  "version": "0.2.0",
+  "llm": {
+    "reachable": true,
+    "model": "mistral:7b",
+    "base_url": "http://localhost:11434/v1",
+    "error": null
+  }
+}
+```
+
+Response (LLM not running):
+```json
+{
+  "status": "degraded",
+  "service": "ocr-pipeline",
+  "version": "0.2.0",
+  "llm": {
+    "reachable": false,
+    "model": "mistral:7b",
+    "base_url": "http://localhost:11434/v1",
+    "error": "Connection refused"
+  }
+}
+```
+
+### 2. Check current config
 
 ```bash
 curl http://localhost:8000/config
@@ -118,7 +155,7 @@ Response:
 }
 ```
 
-### 2. Upload a JSON file (Lighton OCR format)
+### 3. Upload a JSON file (Lighton OCR format)
 
 The JSON file must have an `extractedText` field containing the raw OCR text.
 
@@ -127,28 +164,28 @@ curl -X POST http://localhost:8000/process \
   -F "file=@/path/to/ocr_output.json"
 ```
 
-### 3. Upload a plain text file
+### 4. Upload a plain text file
 
 ```bash
 curl -X POST http://localhost:8000/process \
   -F "file=@/path/to/report.txt"
 ```
 
-### 4. Send raw text directly
+### 5. Send raw text directly
 
 ```bash
 curl -X POST http://localhost:8000/process \
   -F 'text=Patient Name: Mr. John Paulus\nPatient ID: 817026\nAge: 28 Years\nGender: Male\nReferred By: Dr. Smith\nLab: XYZ Diagnostics\nReport Date: 05/03/2025\n\nHAEMATOLOGY\nTest Name          Result    Unit       Bio. Ref. Interval\nHaemoglobin        14.5      g/dL       13.0 - 17.0\nRBC Count          5.2       mill/cumm  4.5 - 5.5\nWBC Count          7800      /cumm      4000 - 11000\nPlatelet Count     250000    /cumm      150000 - 410000'
 ```
 
-### 5. Send a JSON string with extractedText
+### 6. Send a JSON string with extractedText
 
 ```bash
 curl -X POST http://localhost:8000/process \
   -F 'text={"extractedText": "Patient Name: Mrs. Helda Princy\nPatient ID: 392628\nAge: 30 Years\nGender: Female\n\nBIOCHEMISTRY\nTest Name          Result    Unit       Bio. Ref. Interval\nFasting Glucose    95        mg/dL      70 - 100\nHbA1c              5.4       %          4.0 - 5.6\nCreatinine         0.8       mg/dL      0.6 - 1.2"}'
 ```
 
-### 6. Override token budget (for large documents)
+### 7. Override token budget (for large documents)
 
 ```bash
 curl -X POST http://localhost:8000/process \
@@ -157,28 +194,28 @@ curl -X POST http://localhost:8000/process \
   -F "output_budget=4000"
 ```
 
-### 7. Multipage lab report with multiple departments
+### 8. Multipage lab report with multiple departments
 
 ```bash
 curl -X POST http://localhost:8000/process \
   -F 'text=--- Page 1 of 3 ---\nPatient Name: Mr. Ravi Kumar\nPatient ID: 548800\nBarcode ID: 0183ZB002913\nAge: 45 Years\nGender: Male\nFacility: Apollo Diagnostics\nReport Date: 10/03/2025\n\nHAEMATOLOGY\nTest Name          Result    Unit       Bio. Ref. Interval\nHaemoglobin        11.2      g/dL       13.0 - 17.0\nPCV                34.5      %          40 - 50\nRBC Count          4.1       mill/cumm  4.5 - 5.5\n\n--- Page 2 of 3 ---\nBIOCHEMISTRY\nTest Name          Result    Unit       Bio. Ref. Interval\nUrea               45        mg/dL      17 - 43\nCreatinine         1.4       mg/dL      0.6 - 1.2\nUric Acid          7.8       mg/dL      3.4 - 7.0\n\n--- Page 3 of 3 ---\nIMMUNOLOGY\nTest Name          Result    Unit       Bio. Ref. Interval\nTSH                3.2       uIU/mL     0.27 - 4.2\nVitamin D          18.5      ng/mL      30 - 100\nVitamin B12        320       pg/mL      211 - 946'
 ```
 
-### 8. Prescription document
+### 9. Prescription document
 
 ```bash
 curl -X POST http://localhost:8000/process \
   -F 'text=Patient Name: Mrs. Lakshmi Devi\nAge: 55 Years\nGender: Female\nDoctor: Dr. Anand Sharma\nDate: 08/03/2025\nOPD\n\nRx\n1. Tab Metformin 500mg  1-0-1  After food\n2. Tab Amlodipine 5mg   1-0-0  Before food\n3. Tab Atorvastatin 10mg 0-0-1  After food\n4. Cap Vitamin D3 60000 IU  Once weekly x 8 weeks\n\nAdvice:\n- Review after 3 months with HbA1c\n- Low salt, low sugar diet\n- Walk 30 mins daily'
 ```
 
-### 9. Save response to file
+### 10. Save response to file
 
 ```bash
 curl -s -X POST http://localhost:8000/process \
   -F "file=@report.json" | python -m json.tool > output.json
 ```
 
-### 10. Pretty-print response
+### 11. Pretty-print response
 
 ```bash
 curl -s -X POST http://localhost:8000/process \

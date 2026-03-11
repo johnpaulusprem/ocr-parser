@@ -20,6 +20,33 @@ app = FastAPI(
 )
 
 
+@app.get("/health")
+async def health_check():
+    """Health check endpoint. Returns service status and LLM reachability."""
+    import requests
+
+    llm_ok = False
+    llm_error = None
+    try:
+        resp = requests.get(f"{config.LLM_BASE_URL}/models", timeout=5)
+        llm_ok = resp.status_code == 200
+    except Exception as e:
+        llm_error = str(e)
+
+    status = "healthy" if llm_ok else "degraded"
+    return {
+        "status": status,
+        "service": "ocr-pipeline",
+        "version": app.version,
+        "llm": {
+            "reachable": llm_ok,
+            "model": config.LLM_MODEL,
+            "base_url": config.LLM_BASE_URL,
+            "error": llm_error,
+        },
+    }
+
+
 @app.get("/config")
 async def get_config():
     """Return current LLM budget configuration."""
