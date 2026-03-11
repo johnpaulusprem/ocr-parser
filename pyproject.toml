@@ -1,0 +1,29 @@
+[project]
+name = "ocr-pipeline"
+version = "0.1.0"
+description = "OCR to ABDM JSON pipeline for Indian healthcare documents"
+requires-python = ">=3.12"
+dependencies = [
+    "requests>=2.28.0",
+    "fastapi>=0.110.0",
+    "uvicorn[standard]>=0.29.0",
+    "python-multipart>=0.0.9",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0",
+    "ruff>=0.4.0",
+]
+
+[project.scripts]
+ocr-pipeline = "pipeline.run:main"
+
+[tool.setuptools.packages.find]
+include = ["pipeline*"]
+
+[tool.ruff]
+line-length = 120
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

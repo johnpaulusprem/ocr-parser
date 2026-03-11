@@ -1,0 +1,1709 @@
+{
+    "hiType": "Diagnostic Report",
+    "hiTypeConfidence": 0.95,
+    "extractedText": "",
+    "smartData": {
+        "labVitals": [],
+        "data": [
+            {
+                "test_name": "Erythrocyte Sedimentation Rate",
+                "descriptive_test_name": "Erythrocyte Sedimentation Rate",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "HAEMATOLOGY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 1,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 2.0,
+                    "value_string": "2",
+                    "unit": "mm/hr",
+                    "unit_processed": "mm/hr",
+                    "display_range": "<=10"
+                }
+            },
+            {
+                "test_name": "Glycosylated Hemoglobin (HbA1c)",
+                "descriptive_test_name": "Glycosylated Hemoglobin (HbA1c)",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": "HPLC (NGSP certified)",
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "HAEMATOLOGY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 2,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 5.0,
+                    "value_string": "5.0",
+                    "unit": "%",
+                    "unit_processed": "%",
+                    "display_range": "4 - 5.6"
+                }
+            },
+            {
+                "test_name": "Hemoglobin",
+                "descriptive_test_name": "Hemoglobin",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "HAEMATOLOGY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 3,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 14.9,
+                    "value_string": "14.9",
+                    "unit": "g/dL",
+                    "unit_processed": "g/dL",
+                    "display_range": "13.0-17.0"
+                }
+            },
+            {
+                "test_name": "Cyanide Free SLS",
+                "descriptive_test_name": "Cyanide Free SLS",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "HAEMATOLOGY",
+                    "specimen": null,
+                    "scale_type": "Ord",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 3,
+                "result_date": 0,
+                "confidence": 0.8,
+                "isAbnormal": null,
+                "data": {
+                    "value": null,
+                    "value_string": "",
+                    "unit": "",
+                    "unit_processed": "",
+                    "display_range": ""
+                }
+            },
+            {
+                "test_name": "RBC",
+                "descriptive_test_name": "RBC",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "HAEMATOLOGY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 3,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 5.1,
+                    "value_string": "5.10",
+                    "unit": "10^6/cu.mm",
+                    "unit_processed": "10^6/cu.mm",
+                    "display_range": "4.5 - 5.5"
+                }
+            },
+            {
+                "test_name": "HCT",
+                "descriptive_test_name": "HCT",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "HAEMATOLOGY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 3,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 44.1,
+                    "value_string": "44.1",
+                    "unit": "%",
+                    "unit_processed": "%",
+                    "display_range": "40 - 50"
+                }
+            },
+            {
+                "test_name": "MCV",
+                "descriptive_test_name": "MCV",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "HAEMATOLOGY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 3,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 86.4,
+                    "value_string": "86.4",
+                    "unit": "fL",
+                    "unit_processed": "fL",
+                    "display_range": "83 - 101"
+                }
+            },
+            {
+                "test_name": "MCH",
+                "descriptive_test_name": "MCH",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "HAEMATOLOGY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 3,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 29.2,
+                    "value_string": "29.2",
+                    "unit": "pg",
+                    "unit_processed": "pg",
+                    "display_range": "27 - 32"
+                }
+            },
+            {
+                "test_name": "MCHC",
+                "descriptive_test_name": "MCHC",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "HAEMATOLOGY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 3,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 33.8,
+                    "value_string": "33.8",
+                    "unit": "g/dL",
+                    "unit_processed": "g/dL",
+                    "display_range": "31.5 - 34.5"
+                }
+            },
+            {
+                "test_name": "RDW-SD",
+                "descriptive_test_name": "RDW-SD",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "HAEMATOLOGY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 3,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": true,
+                "data": {
+                    "value": 33.8,
+                    "value_string": "33.80",
+                    "unit": "fL",
+                    "unit_processed": "fL",
+                    "display_range": "39-46"
+                }
+            },
+            {
+                "test_name": "RDW-CV",
+                "descriptive_test_name": "RDW-CV",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "HAEMATOLOGY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 3,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 13.5,
+                    "value_string": "13.5",
+                    "unit": "%",
+                    "unit_processed": "%",
+                    "display_range": "11.6-14"
+                }
+            },
+            {
+                "test_name": "Total Leucocyte Count",
+                "descriptive_test_name": "Total Leucocyte Count",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "HAEMATOLOGY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 3,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 7.43,
+                    "value_string": "7.43",
+                    "unit": "10^3/\u00b5L",
+                    "unit_processed": "10^3/\u00b5L",
+                    "display_range": "4 - 10"
+                }
+            },
+            {
+                "test_name": "Differential Leucocyte Count",
+                "descriptive_test_name": "Differential Leucocyte Count",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": "DHSS/Microscopy",
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "HAEMATOLOGY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 3,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": true,
+                "data": {
+                    "value": 29.8,
+                    "value_string": "29.8",
+                    "unit": "%",
+                    "unit_processed": "%",
+                    "display_range": "40-80"
+                }
+            },
+            {
+                "test_name": "Lymphocytes",
+                "descriptive_test_name": "Lymphocytes",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": "DHSS/Microscopy",
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "HAEMATOLOGY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 3,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": true,
+                "data": {
+                    "value": 56.0,
+                    "value_string": "56",
+                    "unit": "%",
+                    "unit_processed": "%",
+                    "display_range": "20-40"
+                }
+            },
+            {
+                "test_name": "Monocytes",
+                "descriptive_test_name": "Monocytes",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": "DHSS/Microscopy",
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "HAEMATOLOGY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 3,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 8.5,
+                    "value_string": "8.5",
+                    "unit": "%",
+                    "unit_processed": "%",
+                    "display_range": "2-10"
+                }
+            },
+            {
+                "test_name": "Eosinophils",
+                "descriptive_test_name": "Eosinophils",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": "DHSS/Microscopy",
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "HAEMATOLOGY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 3,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 5.2,
+                    "value_string": "5.2",
+                    "unit": "%",
+                    "unit_processed": "%",
+                    "display_range": "1-6"
+                }
+            },
+            {
+                "test_name": "Basophils",
+                "descriptive_test_name": "Basophils",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": "Impedance/Microscopy",
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "HAEMATOLOGY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 3,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 0.5,
+                    "value_string": "0.5",
+                    "unit": "%",
+                    "unit_processed": "%",
+                    "display_range": "0-2"
+                }
+            },
+            {
+                "test_name": "Platelet Count",
+                "descriptive_test_name": "Platelet Count",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": "Impedance /Microscopy",
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "HAEMATOLOGY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 3,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 241.0,
+                    "value_string": "241",
+                    "unit": "10^3/\u00b5L",
+                    "unit_processed": "10^3/\u00b5L",
+                    "display_range": "150-410"
+                }
+            },
+            {
+                "test_name": "MPV",
+                "descriptive_test_name": "MPV",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "HAEMATOLOGY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 3,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 8.4,
+                    "value_string": "8.4",
+                    "unit": "fL",
+                    "unit_processed": "fL",
+                    "display_range": "6.5 - 12"
+                }
+            },
+            {
+                "test_name": "PDW",
+                "descriptive_test_name": "PDW",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "HAEMATOLOGY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 3,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 14.1,
+                    "value_string": "14.1",
+                    "unit": "fL",
+                    "unit_processed": "fL",
+                    "display_range": "9-17"
+                }
+            },
+            {
+                "test_name": "Glucose - Fasting",
+                "descriptive_test_name": "Glucose - Fasting",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 4,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 90.0,
+                    "value_string": "90",
+                    "unit": "mg/dL",
+                    "unit_processed": "mg/dL",
+                    "display_range": "70-99"
+                }
+            },
+            {
+                "test_name": "Hexokinase/G-6-PDH",
+                "descriptive_test_name": "Hexokinase/G-6-PDH",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Ord",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 4,
+                "result_date": 0,
+                "confidence": 0.8,
+                "isAbnormal": null,
+                "data": {
+                    "value": null,
+                    "value_string": "",
+                    "unit": "",
+                    "unit_processed": "",
+                    "display_range": ""
+                }
+            },
+            {
+                "test_name": "Bilirubin-Total",
+                "descriptive_test_name": "Bilirubin-Total",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": "Vanadate oxidation",
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "Liver Function Test",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 5,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 0.69,
+                    "value_string": "0.69",
+                    "unit": "mg/dL",
+                    "unit_processed": "mg/dL",
+                    "display_range": "0.3 \u2013 1.2"
+                }
+            },
+            {
+                "test_name": "Bilirubin-Direct",
+                "descriptive_test_name": "Bilirubin-Direct",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": "Vanadate oxidation",
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "Liver Function Test",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 5,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 0.26,
+                    "value_string": "0.26",
+                    "unit": "mg/dL",
+                    "unit_processed": "mg/dL",
+                    "display_range": "0.0-0.3"
+                }
+            },
+            {
+                "test_name": "Bilirubin-Indirect",
+                "descriptive_test_name": "Bilirubin-Indirect",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": "Vanadate oxidation",
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "Liver Function Test",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 5,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 0.43,
+                    "value_string": "0.43",
+                    "unit": "mg/dL",
+                    "unit_processed": "mg/dL",
+                    "display_range": "0.2-0.8"
+                }
+            },
+            {
+                "test_name": "Protein, Total",
+                "descriptive_test_name": "Protein, Total",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": "Biuret",
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "Liver Function Test",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 5,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 6.9,
+                    "value_string": "6.90",
+                    "unit": "g/dL",
+                    "unit_processed": "g/dL",
+                    "display_range": "5.7\u20138.2"
+                }
+            },
+            {
+                "test_name": "Albumin",
+                "descriptive_test_name": "Albumin",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": "BCG Dye Binding",
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "Liver Function Test",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 5,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 4.1,
+                    "value_string": "4.10",
+                    "unit": "g/dL",
+                    "unit_processed": "g/dL",
+                    "display_range": "3.2-4.8"
+                }
+            },
+            {
+                "test_name": "Globulin",
+                "descriptive_test_name": "Globulin",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "Liver Function Test",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 5,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 2.8,
+                    "value_string": "2.8",
+                    "unit": "g/dl",
+                    "unit_processed": "g/dl",
+                    "display_range": "2.1 - 3.9"
+                }
+            },
+            {
+                "test_name": "A/G Ratio",
+                "descriptive_test_name": "A/G Ratio",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": "Calculated",
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "Liver Function Test",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 5,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 1.46,
+                    "value_string": "1.46",
+                    "unit": "Ratio",
+                    "unit_processed": "Ratio",
+                    "display_range": "0.8 - 2.1"
+                }
+            },
+            {
+                "test_name": "Aspartate Transaminase (SGOT)",
+                "descriptive_test_name": "Aspartate Transaminase (SGOT)",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "Liver Function Test",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 5,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": null,
+                "data": {
+                    "value": 20.0,
+                    "value_string": "20",
+                    "unit": "U/L",
+                    "unit_processed": "U/L",
+                    "display_range": "indicates alcoholic hepatitis, cirrhosis, metastasis or non-hepatic issues (hemolytic diseases, CVS disorders)."
+                }
+            },
+            {
+                "test_name": "This test has been performed at TATA 1MG OKHLA",
+                "descriptive_test_name": "This test has been performed at TATA 1MG OKHLA",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": "Not specified for this test",
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Ord",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 6,
+                "result_date": 0,
+                "confidence": 0.8,
+                "isAbnormal": null,
+                "data": {
+                    "value": null,
+                    "value_string": "",
+                    "unit": "",
+                    "unit_processed": "",
+                    "display_range": ""
+                }
+            },
+            {
+                "test_name": "Iron Serum",
+                "descriptive_test_name": "Iron Serum",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": "Ferrozine",
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 7,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 101.0,
+                    "value_string": "101",
+                    "unit": "\u00b5g/dL",
+                    "unit_processed": "\u00b5g/dL",
+                    "display_range": "65-175"
+                }
+            },
+            {
+                "test_name": "Unsaturated Iron Binding Capacity",
+                "descriptive_test_name": "Unsaturated Iron Binding Capacity",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": "Ferene",
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 7,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 137.0,
+                    "value_string": "137",
+                    "unit": "\u00b5g/dL",
+                    "unit_processed": "\u00b5g/dL",
+                    "display_range": "120 - 470"
+                }
+            },
+            {
+                "test_name": "Total Iron Binding Capacity (TIBC)",
+                "descriptive_test_name": "Total Iron Binding Capacity (TIBC)",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": "Calculated",
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 7,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": true,
+                "data": {
+                    "value": 237.9,
+                    "value_string": "237.9",
+                    "unit": "\u00b5g/dL",
+                    "unit_processed": "\u00b5g/dL",
+                    "display_range": "240 - 540"
+                }
+            },
+            {
+                "test_name": "Transferrin Saturation",
+                "descriptive_test_name": "Transferrin Saturation",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": "Calculated",
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 7,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 42.45,
+                    "value_string": "42.45",
+                    "unit": "%",
+                    "unit_processed": "%",
+                    "display_range": "16-50"
+                }
+            },
+            {
+                "test_name": "Blood Urea Nitrogen",
+                "descriptive_test_name": "Blood Urea Nitrogen",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 8,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 17.0,
+                    "value_string": "17",
+                    "unit": "mg/dL",
+                    "unit_processed": "mg/dL",
+                    "display_range": "9.0-23"
+                }
+            },
+            {
+                "test_name": "Urease with GLDH",
+                "descriptive_test_name": "Urease with GLDH",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 8,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 36.38,
+                    "value_string": "36.38",
+                    "unit": "mg/dL",
+                    "unit_processed": "mg/dL",
+                    "display_range": "19.26-49.22"
+                }
+            },
+            {
+                "test_name": "Calculated Creatinine",
+                "descriptive_test_name": "Calculated Creatinine",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 8,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 1.06,
+                    "value_string": "1.06",
+                    "unit": "mg/dL",
+                    "unit_processed": "mg/dL",
+                    "display_range": "0.7-1.3"
+                }
+            },
+            {
+                "test_name": "Alkaline picrate-kinetic",
+                "descriptive_test_name": "Alkaline picrate-kinetic",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 8,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 5.3,
+                    "value_string": "5.3",
+                    "unit": "mg/dL",
+                    "unit_processed": "mg/dL",
+                    "display_range": "3.5-7.2"
+                }
+            },
+            {
+                "test_name": "Uric Acid",
+                "descriptive_test_name": "Uric Acid",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 8,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 4.07,
+                    "value_string": "4.07",
+                    "unit": "mEq/L",
+                    "unit_processed": "mEq/L",
+                    "display_range": "3.5-5.1"
+                }
+            },
+            {
+                "test_name": "Chloride",
+                "descriptive_test_name": "Chloride",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 8,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 107.0,
+                    "value_string": "107.0",
+                    "unit": "mEq/L",
+                    "unit_processed": "mEq/L",
+                    "display_range": "98-107"
+                }
+            },
+            {
+                "test_name": "BUN/Creatinine Ratio",
+                "descriptive_test_name": "BUN/Creatinine Ratio",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 8,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": null,
+                "data": {
+                    "value": 16.0,
+                    "value_string": "16.0",
+                    "unit": "Ratio",
+                    "unit_processed": "Ratio",
+                    "display_range": "12:1 - 20:1"
+                }
+            },
+            {
+                "test_name": "Urea/Creatinine Ratio",
+                "descriptive_test_name": "Urea/Creatinine Ratio",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 8,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": null,
+                "data": {
+                    "value": 34.32,
+                    "value_string": "34.32",
+                    "unit": "Ratio",
+                    "unit_processed": "Ratio",
+                    "display_range": ""
+                }
+            },
+            {
+                "test_name": "Triglycerides",
+                "descriptive_test_name": "Triglycerides",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 9,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": null,
+                "data": {
+                    "value": 88.0,
+                    "value_string": "88",
+                    "unit": "mg/dL",
+                    "unit_processed": "mg/dL",
+                    "display_range": "Normal: =500"
+                }
+            },
+            {
+                "test_name": "Cholesterol - HDL",
+                "descriptive_test_name": "Cholesterol - HDL",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 9,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": null,
+                "data": {
+                    "value": 37.0,
+                    "value_string": "37",
+                    "unit": "mg/dL",
+                    "unit_processed": "mg/dL",
+                    "display_range": "Undesirable/high risk =60mg/dl"
+                }
+            },
+            {
+                "test_name": "Cholesterol Esterase",
+                "descriptive_test_name": "Cholesterol Esterase",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Ord",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 9,
+                "result_date": 0,
+                "confidence": 0.8,
+                "isAbnormal": null,
+                "data": {
+                    "value": null,
+                    "value_string": "",
+                    "unit": "",
+                    "unit_processed": "",
+                    "display_range": ""
+                }
+            },
+            {
+                "test_name": "Cholesterol - LDL",
+                "descriptive_test_name": "Cholesterol - LDL",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 9,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": null,
+                "data": {
+                    "value": 64.0,
+                    "value_string": "64",
+                    "unit": "mg/dL",
+                    "unit_processed": "mg/dL",
+                    "display_range": "Desirable: =190"
+                }
+            },
+            {
+                "test_name": "Calculated Cholesterol- VLDL",
+                "descriptive_test_name": "Calculated Cholesterol- VLDL",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 9,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": null,
+                "data": {
+                    "value": 18.0,
+                    "value_string": "18",
+                    "unit": "mg/dl",
+                    "unit_processed": "mg/dl",
+                    "display_range": ""
+                }
+            },
+            {
+                "test_name": "Calculated LDL : HDL Cholesterol",
+                "descriptive_test_name": "Calculated LDL : HDL Cholesterol",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 9,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": null,
+                "data": {
+                    "value": 1.73,
+                    "value_string": "1.73",
+                    "unit": "Ratio",
+                    "unit_processed": "Ratio",
+                    "display_range": "Desirable : 2.5-3.0 High risk : >3.5"
+                }
+            },
+            {
+                "test_name": "Calculated Non HDL Cholesterol",
+                "descriptive_test_name": "Calculated Non HDL Cholesterol",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 9,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": null,
+                "data": {
+                    "value": 81.0,
+                    "value_string": "81",
+                    "unit": "mg/dl",
+                    "unit_processed": "mg/dl",
+                    "display_range": "Desirable: = 220"
+                }
+            },
+            {
+                "test_name": "Calculated HDL : LDL Ratio",
+                "descriptive_test_name": "Calculated HDL : LDL Ratio",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 9,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 0.58,
+                    "value_string": "0.58",
+                    "unit": "Ratio",
+                    "unit_processed": "Ratio",
+                    "display_range": ">0.3"
+                }
+            },
+            {
+                "test_name": "Total cholesterol",
+                "descriptive_test_name": "Total cholesterol",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Ord",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 10,
+                "result_date": 0,
+                "confidence": 0.8,
+                "isAbnormal": null,
+                "data": {
+                    "value": null,
+                    "value_string": "",
+                    "unit": "mmol/L",
+                    "unit_processed": "mmol/L",
+                    "display_range": "3.1-5.2"
+                }
+            },
+            {
+                "test_name": "HDL Cholesterol",
+                "descriptive_test_name": "HDL Cholesterol",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Ord",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 10,
+                "result_date": 0,
+                "confidence": 0.8,
+                "isAbnormal": null,
+                "data": {
+                    "value": null,
+                    "value_string": "",
+                    "unit": "mmol/L",
+                    "unit_processed": "mmol/L",
+                    "display_range": "1.0-1.6"
+                }
+            },
+            {
+                "test_name": "LDL Cholesterol",
+                "descriptive_test_name": "LDL Cholesterol",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Ord",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 10,
+                "result_date": 0,
+                "confidence": 0.8,
+                "isAbnormal": null,
+                "data": {
+                    "value": null,
+                    "value_string": "",
+                    "unit": "mmol/L",
+                    "unit_processed": "mmol/L",
+                    "display_range": "1.8-3.6"
+                }
+            },
+            {
+                "test_name": "Non-HDL Cholesterol",
+                "descriptive_test_name": "Non-HDL Cholesterol",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Ord",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 10,
+                "result_date": 0,
+                "confidence": 0.8,
+                "isAbnormal": null,
+                "data": {
+                    "value": null,
+                    "value_string": "",
+                    "unit": "mmol/L",
+                    "unit_processed": "mmol/L",
+                    "display_range": ""
+                }
+            },
+            {
+                "test_name": "Test Name",
+                "descriptive_test_name": "Test Name",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": "This test has been performed at TATA 1MG OKHLA",
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "BIOCHEMISTRY",
+                    "specimen": null,
+                    "scale_type": "Ord",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 11,
+                "result_date": 0,
+                "confidence": 0.8,
+                "isAbnormal": null,
+                "data": {
+                    "value": null,
+                    "value_string": "",
+                    "unit": "",
+                    "unit_processed": "",
+                    "display_range": "Bio. Ref. Interval"
+                }
+            },
+            {
+                "test_name": "T3, Total",
+                "descriptive_test_name": "T3, Total",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": "CLIA",
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "Immunology",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 12,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 0.95,
+                    "value_string": "0.95",
+                    "unit": "ng/mL",
+                    "unit_processed": "ng/mL",
+                    "display_range": "0.60-1.81"
+                }
+            },
+            {
+                "test_name": "T4, Total",
+                "descriptive_test_name": "T4, Total",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": "CLIA",
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "Immunology",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 12,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 7.0,
+                    "value_string": "7.0",
+                    "unit": "\u00b5g/dl",
+                    "unit_processed": "\u00b5g/dl",
+                    "display_range": "4.5-12.6"
+                }
+            },
+            {
+                "test_name": "Thyroid Stimulating Hormone - Ultra Sensitive",
+                "descriptive_test_name": "Thyroid Stimulating Hormone - Ultra Sensitive",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": "CLIA",
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "Immunology",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 12,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": true,
+                "data": {
+                    "value": 6.794,
+                    "value_string": "6.794",
+                    "unit": "\u00b5IU/ml",
+                    "unit_processed": "\u00b5IU/ml",
+                    "display_range": "0.55-4.78"
+                }
+            },
+            {
+                "test_name": "TSH",
+                "descriptive_test_name": "TSH",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "Immunology",
+                    "specimen": null,
+                    "scale_type": "Ord",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 13,
+                "result_date": 0,
+                "confidence": 0.8,
+                "isAbnormal": null,
+                "data": {
+                    "value": null,
+                    "value_string": "High",
+                    "unit": "",
+                    "unit_processed": "",
+                    "display_range": ""
+                }
+            },
+            {
+                "test_name": "T3",
+                "descriptive_test_name": "T3",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "Immunology",
+                    "specimen": null,
+                    "scale_type": "Ord",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 13,
+                "result_date": 0,
+                "confidence": 0.8,
+                "isAbnormal": null,
+                "data": {
+                    "value": null,
+                    "value_string": "Normal",
+                    "unit": "",
+                    "unit_processed": "",
+                    "display_range": ""
+                }
+            },
+            {
+                "test_name": "T4",
+                "descriptive_test_name": "T4",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "Immunology",
+                    "specimen": null,
+                    "scale_type": "Ord",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 13,
+                "result_date": 0,
+                "confidence": 0.8,
+                "isAbnormal": null,
+                "data": {
+                    "value": null,
+                    "value_string": "Normal",
+                    "unit": "",
+                    "unit_processed": "",
+                    "display_range": ""
+                }
+            },
+            {
+                "test_name": "Vitamin D (25-OH)",
+                "descriptive_test_name": "Vitamin D (25-OH)",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": "CLIA",
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "Immunology",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 13,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": null,
+                "data": {
+                    "value": 12.8,
+                    "value_string": "12.8",
+                    "unit": "ng/ml",
+                    "unit_processed": "ng/ml",
+                    "display_range": "Deficiency: 100"
+                }
+            },
+            {
+                "test_name": "Vitamin D",
+                "descriptive_test_name": "Vitamin D",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": null,
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "Immunology",
+                    "specimen": null,
+                    "scale_type": "Ord",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 14,
+                "result_date": 0,
+                "confidence": 0.8,
+                "isAbnormal": null,
+                "data": {
+                    "value": null,
+                    "value_string": "",
+                    "unit": "",
+                    "unit_processed": "",
+                    "display_range": ""
+                }
+            },
+            {
+                "test_name": "Vitamin B12",
+                "descriptive_test_name": "Vitamin B12",
+                "test_context": {
+                    "alternate_names": null,
+                    "method": "CLIA",
+                    "panel_name": "SUPER EMPLOYEE HEALTH CHECK-UP",
+                    "department": "Immunology",
+                    "specimen": null,
+                    "scale_type": "Qn",
+                    "additional_info": null
+                },
+                "file_index": 1,
+                "page_number": 14,
+                "result_date": 0,
+                "confidence": 1.0,
+                "isAbnormal": false,
+                "data": {
+                    "value": 532.0,
+                    "value_string": "532.0",
+                    "unit": "pg/ml",
+                    "unit_processed": "pg/ml",
+                    "display_range": "211-911"
+                }
+            }
+        ],
+        "diagnosis": [
+            {
+                "name": "Normal"
+            },
+            {
+                "name": "Pre-Diabetes (IGT)"
+            },
+            {
+                "name": "Diabetes"
+            },
+            {
+                "name": "Subclinical Hypothyroidism"
+            },
+            {
+                "name": "Subclinical Hyperthyroidism"
+            },
+            {
+                "name": "Secondary Hyperthyroidism"
+            },
+            {
+                "name": "Non thyroidal illness / Secondary Hypothyroidism"
+            },
+            {
+                "name": "Vitamin D deficiency"
+            }
+        ],
+        "symptoms": [],
+        "medications": [],
+        "advice": [],
+        "interpretation": "ESR provides an index of progress of the disease and is widely used as an indicator of inflammation, infection, trauma, or malignant diseases. Changes are more significant than a single abnormal test It is specifically indicated to monitor the course or response to the treatment of diseases like rheumatoid arthritis, tuberculosis bacterial endocarditis ,acute rheumatic fever ,Hodgkins disease,temporal arthritis , and systemic lupus erythematosis; and to diagnose and monitor giant cell arteritis and polymyalgia rheumatica. An elevated ESR may also be associated with many other conditions, including autoimmune disease, anemia, infection, malignancy, pregnancy, multiple myeloma, menstruation, and hypothyroidism. Although a normal ESR cannot be taken to exclude the presence of organic disease, its rate is dependent on various physiologic and pathologic factors. The most important component influencing ESR is the composition of plasma. High level of C-Reactive Protein, fibrinogen, haptoglobin, alpha-1antitrypsin, ceruloplasmin and immunoglobulins causes the elevation of Erythrocyte Sedimentation Rate. Drugs that may cause increase ESR levels include: dextran, methyldopa, oral contraceptives, penicillamine, procainamide, theophylline, and Vitamin A. Drugs that may cause decrease levels include: aspirin, cortisone, and quinine HbA1c% \u22645.6 Normal 5.7-6.4 At Risk For Diabetes \u22656.5 Diabetes As per the recommendation of International council for Standardization in Hematology, the differential leucocyte counts are additionally being reported as absolute numbers of each cell in per unit volume of blood. Impaired glucose tolerance (IGT) fasting, means a person has an increased risk of developing type 2 diabetes but does not have it yet. A level of 126 mg/dL or above, confirmed by repeating the test on another day, means a person has diabetes. Elevated Alkaline Phosphatase and GGT: Suggest cholestatic diseases (e.g. bile duct obstruction, primary biliary cirrhosis etc.) and can also be due to bone disease, pregnancy, chronic renal failure, malignancy, and congestive heart failure. High Bilirubin: Indicates jaundice due to increased RBC breakdown, liver damage (e.g., infections, toxins), or cholestasis (e.g., gallstones, tumors). High Protein Levels: Seen in dehydration (e.g., severe vomiting, diarrhea) or increased production (e.g., inflammation, hematopoietic neoplasms). Low protein and albumin: Result from impaired synthesis (liver disease), decreased intake, This test indicates tissue damage, malabsorption, or increased renal excretion. Iron is an essential trace mineral element which forms an important component of hemoglobin, metallocompounds and Vitamin A. Deficiency of iron is seen in iron deficiency and anaemia of chronic disorders. Increased iron concentration are seen in hemolytic anaemias, hemochromatosis and acute liver disease. Serum Iron alone is unreliable due to considerable physiologic diurnal variation in the results with highest values in the morning and lowest values in the evening as well as variation in response to iron therapy . Total Iron Binding capacity (TIBC) is a direct measure of the protein Transferrin which transports iron from the gut to storage sites in the bone marrow. Increased levels of TIBC suggest that total iron body stores are low, increased concentration may be the sign of Iron deficiency anaemia, polycythemia vera ,and may occur during the third trimester of pregnancy. Decreased levels may be seen in hemolytic anaemia, hemochromatosis, chronic liver disease, hypoproteinemia ,malnutrition. Unsaturated Iron Binding Capacity (UIBC) is increased in low iron state and decreased in high iron concentration such as hemochromatosis. In case of anaemia of chronic disease the patient may be anaemic but has adequate iron reserve and a low UIBC. BUN is directly related to protein intake and nitrogen metabolism and inversely related to the rate of excretion of urea.Blood urea nitrogen (BUN) levels reflect the balance between the production and excretion of urea. Increased levels are seen in renal failure (acute or chronic), urinary tract obstruction, dehydration, shock, burns, CHF, GI bleeding, nephrotoxic drugs. Decreased levels are seen in hepatic failure, nephrotic syndrome, cachexia (low-protein and high-carbohydrate diets). Indians are at a high risk of developing atherosclerotic cardiovascular disease (ASCVD); at a much earlier age and more severe with high mortality. Dyslipidemia (abnormal lipid profile) is the major risk factor and found in almost 80% Indians. High triglyceride levels also need to be treated. Below mentioned are the guidelines for pregnancy related reference ranges for TSH, total T3 & Total T4.\nPregnancy\n\nTSH (\u03bcIU/mL) (as per American Thyroid Association )\nTotal T3 (ng/mL)\nTotal T4(\u03bcg/dL)\n1st trimester\n0.1-2.5\n0.81-1.90\n7.33-14.8\n2nd trimester\n0.2-3.0\n1.00-2.60\n7.93-16.1\n3rd trimester\n0.3-3.0\n1.00-2.60\n6.95-15.7\n\nTSH levels are subject to circadian variation, reaching peak levels between 2 - 4.a.m. and at a minimum between 6-10 pm.\nThe variation is of the order of 50%, hence time of the day has influence on the measured serum TSH concentrations.\nTSH is secreted in a dual fashion: Intermittent pulses constitute 60-70% of total amount, background continuous secretion is 30-40%.These pulses occur regularly every 1-3 hrs.\nTotal T3 & T4 concentrations are altered by physiological or pathological changes in thyroxine binding globulin (TBG) capacity .\nThe determination of free T3 & free T4 has the advantage of being independent of changes in the concentrations and binding properties of the binding proteins.\nChanges in thyroid status are typically associated with concordant changes in T3, T4 and TSH levels.\nUnexpectedly abnormal or discordant thyroid test values may be seen with some rare, but clinically significant conditions such as central hypothyroidism, TSH-secreting pituitary tumors, thyroid hormone resistance, or the presence of heterophilic antibodies (HAMA) or thyroid hormone autoantibodies.\nFor diagnostic purposes, results should be used in conjunction with other data. Hyperthyroidism Vitamin D deficiency is a cause of secondary hyperparathyroidism and diseases resulting in impaired bone metabolism (like rickets, osteomalacia). Recently, many chronic diseases such as cancer, high blood pressure, osteoporosis and several autoimmune diseases have been linked to vitamin D deficiency."
+    },
+    "pii": {
+        "document": [
+            {
+                "PageNum": 1,
+                "file_index": 0,
+                "DocumentDate": "30/Aug/2024 11:49AM",
+                "Patient": {
+                    "Name": "Mr.SIDHANSHU BAJAJ",
+                    "Gender": "Male",
+                    "patientId": "OKH1559736",
+                    "Age": {
+                        "Years": 26,
+                        "Months": null,
+                        "Days": null
+                    }
+                },
+                "Report": {
+                    "Doctor": "Dr.",
+                    "Facility": "TATA 1MG OKHLA",
+                    "GeneratedDate": "30/Aug/2024 11:49AM",
+                    "SampleReceivedDate": "",
+                    "SampleCollectionDate": "30/Aug/2024 08:37AM"
+                }
+            }
+        ]
+    },
+    "debug": {
+        "pages_processed": 17,
+        "pages_with_data": 15,
+        "pages_marketing": 1,
+        "pages_error": 1,
+        "total_results": 65,
+        "total_diagnosis": 8,
+        "departments": [
+            "HAEMATOLOGY",
+            "BIOCHEMISTRY",
+            "Liver Function Test",
+            "Immunology",
+            "CLINICAL PATHOLOGY"
+        ],
+        "panels": [
+            "SUPER EMPLOYEE HEALTH CHECK-UP"
+        ]
+    }
+}
